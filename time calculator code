@@ -1,0 +1,4 @@
+var hourlyWage = prompt("Input your hourly wage");
+var minuteValue = hourlyWage / 60;
+var secondsValue = minuteValue / 60;
+alert("You make " + minuteValue + " a minute and " + secondsValue + " a second");
